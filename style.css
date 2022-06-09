@@ -92,7 +92,7 @@ p{
 }
 
 #somos-fbtrading .img-container{
-    background-image: url(imagen5.jpg);
+    background-image: url(./svg/imagen5.jpg);
     background-size: cover;
     background-position: center center;
     height: 400px;
