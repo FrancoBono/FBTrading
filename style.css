@@ -67,7 +67,7 @@ p{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("background0.jpg");
+    ,url(./imagenes/background0.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -92,7 +92,7 @@ p{
 }
 
 #somos-fbtrading .img-container{
-    background-image: url(./svg/imagen5.jpg);
+    background-image: url(./imagenes/imagen5.jpg);
     background-size: cover;
     background-position: center center;
     height: 400px;
@@ -144,7 +144,7 @@ p{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url(tradingprincipiantes.jpg)
+    ,url(./imagenes/tradingprincipiantes.jpg)
 }
 .carta:nth-child(2){
     background-image: linear-gradient(
@@ -152,7 +152,7 @@ p{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url(tradingavanzado.jpg)
+    ,url(./imagenes/tradingavanzado.jpg)
 }
 .carta:last-child{
     background-image: linear-gradient(
@@ -160,7 +160,7 @@ p{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url(nfts.jpg)
+    ,url(./imagenes/nfts.jpg)
 }
 
 
@@ -429,7 +429,7 @@ header a:hover{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("background0.jpg");
+        ,url("./imagenes/background0.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -465,7 +465,7 @@ header a:hover{
 }
 
 #somos-fbtrading .img-container{
-        background-image: url(imagen5.jpg);
+        background-image: url(./imagenes/imagen5.jpg);
         background-size: cover;
         background-position: center center;
         height: 500px;
@@ -549,7 +549,7 @@ header a:hover{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url(tradingprincipiantes.jpg)
+        ,url(./imagenes/tradingprincipiantes.jpg)
 
 }
 .carta:nth-child(2){
@@ -558,7 +558,7 @@ header a:hover{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url(tradingavanzado.jpg)
+        ,url(./imagenes/tradingavanzado.jpg)
 }
 .carta:last-child{
         background-image: linear-gradient(
@@ -566,7 +566,7 @@ header a:hover{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url(nfts.jpg)
+        ,url(./imagenes/nfts.jpg)
 }
 
 .mapa{
@@ -709,7 +709,7 @@ h3{
 
 #atp .img-container{
     margin-top: 170px;
-    background-image: url(tradingprincipiantes.jpg);
+    background-image: url(./imagenes/tradingprincipiantes.jpg);
     background-size: cover;
     background-position: center center;
     height: 500px;
@@ -737,7 +737,7 @@ h3{
 }
 
 #atp .img-container{
-    background-image: url(tradingprincipiantes.jpg);
+    background-image: url(./imagenes/tradingprincipiantes.jpg);
     background-size: cover;
     background-position: center center;
     height: 500px;
@@ -772,7 +772,7 @@ h3{
 }
 
 #ata .img-container{
-    background-image: url(tradingavanzado.jpg);
+    background-image: url(./imagenes/tradingavanzado.jpg);
     background-size: cover;
     background-position: right;
     height: 500px;
@@ -809,7 +809,7 @@ h3{
 
 #eln .img-container{
     margin-top: 170px;
-    background-image: url(tradingprincipiantes.jpg);
+    background-image: url(./imagenes/tradingprincipiantes.jpg);
     background-size: cover;
     background-position: center center;
     height: 500px;
@@ -837,7 +837,7 @@ h3{
 }
 
 #eln .img-container{
-    background-image: url(nft2.jpg);
+    background-image: url(./imagenes/nft2.jpg);
     background-size: cover;
     background-position: center center;
     height: 500px;
@@ -884,7 +884,7 @@ h3{
         height: 100%;
         left: 0;
         top: 0;
-        background: url(imgcontacto.jpg) no-repeat center;
+        background: url(./imagenes/imgcontacto.jpg) no-repeat center;
         background-size: cover;
     }
     .contact-box{
@@ -901,7 +901,7 @@ h3{
     }
 
     .left{
-        background: url("imgcontacto.jpg") no-repeat center;
+        background: url("./imagenes/imgcontacto.jpg") no-repeat center;
         background-size: cover;
         height: 100%;
     }
@@ -1007,7 +1007,7 @@ h3{
     }
 
     #sobre-nosotros .img-container{
-        background-image: url(imagen5.jpg);
+        background-image: url(./imagenes/imagen5.jpg);
         background-size: cover;
         background-position: center center;
         height: 400px;
