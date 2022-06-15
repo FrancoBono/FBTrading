@@ -1,3 +1,149 @@
+
+h1{
+    margin-left: 90px;
+}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgb(0, 0, 0.5);
+    color: white;
+    background-color: blueviolet;
+    transition: all ease-out 0.2s;
+
+}
+
+button:hover{
+    background-color: rgb(101, 33, 165);
+}
+
+button:hover{
+    transform: scale(1.2);
+}
+
+.slide .fotos{
+    height: 60rem;
+    width: 100px;
+    background-size: 75%;
+
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: black;
+    transform: translate(-50%, -50%);
+}
+#hero h2{
+    font-size: 3em;
+}
+
+#hero button{
+    font-size: 1.75em;
+}
+
+ul li{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.navbar .navbar-nav .nav-link:hover{
+    color: blueviolet;
+}
+
+#somos-fbtrading .container{
+    display: flex ;
+    justify-content: space-evenly;
+    padding: 150px;
+}
+
+#somos-fbtrading .texto{
+    width: 50%;
+    text-align: initial;
+    padding: 0px 30px;
+    max-width: 600px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#somos-fbtrading h6{
+    margin-top: 0px;
+    font-size: 2.7em;
+}
+
+#somos-fbtrading img{
+    max-width: 100%;
+    height: 400px;
+}
+
+
+
+
+#cursos{
+    background-color: rgb(30,30,30);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.imagen-cursos{
+    height: 300px;
+    width: 300px;
+}
+
+.card-border{
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+    color: black;
+}
+
+.card-border:hover{
+    transform: scale(1.05);
+}
+
+.mapa{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+.map-container iframe{
+    width: 800px;
+    height: 600px;
+}
+
+.mapa h5{
+    font-size: 2em;
+}
+
+.boton-redes{
+    transition: all ease-out 0,2s;
+}
+.boton-redes:hover{
+    transform: scale(1.5);
+}
+
+
+
+
+
+
+/*
 *{
     box-sizing: border-box;
 }
@@ -947,7 +1093,7 @@ h3{
         min-height: 150px;
     }
 
-    .btn{
+    .btn1{
         width: 100%;
         padding: 0.5rem 1rem;
         background-color: blueviolet;
@@ -959,7 +1105,7 @@ h3{
         transition: .3s;
     }
 
-    .btn:hover{
+    .btn1:hover{
         background-color: rgb(101, 33, 165);
     }
 
