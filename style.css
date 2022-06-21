@@ -1,3 +1,12 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    overflow-x: hidden;
+}
 
 h1{
     margin-left: 90px;
@@ -69,7 +78,7 @@ ul li{
 }
 
 #somos-fbtrading .texto{
-    width: 50%;
+    width: 80%;
     text-align: initial;
     padding: 0px 30px;
     max-width: 600px;
@@ -98,6 +107,8 @@ ul li{
     margin-bottom: 100px;
     padding-top: 100px;
     padding-bottom: 100px;
+    max-width: 100%;
+    width: 100%;
 }
 
 .imagen-cursos{
@@ -127,6 +138,20 @@ ul li{
     height: 600px;
 }
 
+.responsive-map{
+    overflow: hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .responsive-map iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
 .mapa h5{
     font-size: 2em;
 }
@@ -137,6 +162,8 @@ ul li{
 .boton-redes:hover{
     transform: scale(1.5);
 }
+
+
 
 
 
@@ -960,6 +987,7 @@ h3{
     background-position: center center;
     height: 500px;
     width: 500px;
+    margin-bottom: 150px;
 }
 
 #eln .container{
@@ -1109,12 +1137,11 @@ h3{
         background-color: rgb(101, 33, 165);
     }
 
-    .parent3 {
+    .parent3{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 80px 800px 80px
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
+
     }
 
         .div1 { grid-area: 1 / 1 / 2 / 2; }
@@ -1127,16 +1154,20 @@ h3{
     #sobre-nosotros{
         color: #fff;
         background-color: rgb(30,30,30);
+        padding-bottom: 100px;
 }
 
     #sobre-nosotros .container{
         display: flex ;
         justify-content: space-evenly;
+        padding: 150px;
+}
 
 }
 
+
     #sobre-nosotros .texto{
-        width: 50%;
+        width: 80%;
         text-align: initial;
         padding: 0px 30px;
         max-width: 600px;
@@ -1146,19 +1177,19 @@ h3{
         justify-content: center;
         margin-top: 170px;
         margin-bottom: 170px;
+        padding-bottom: 200px;;
     }
 
     #sobre-nosotros h6{
         margin-top: 0px;
+        font-size: 1.7rem;
     }
 
-    #sobre-nosotros .img-container{
-        background-image: url(./imagenes/imagen5.jpg);
-        background-size: cover;
-        background-position: center center;
+    #sobre-nosotros img{
+
         height: 400px;
-        width: 400px;
-        margin-top: 120px;
+        width:  500px;
+
     }
 
 
@@ -1188,8 +1219,8 @@ h3{
 
     .equipos{
         margin: 10px;
-        padding: 22px;
-        max-width: 30%;
+
+        max-width: 100%;
         cursor: pointer;
         transition: 0.4s;
         box-sizing: border-box;
