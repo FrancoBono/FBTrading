@@ -1,4 +1,6 @@
 @import "colores";
+@import "mixins";
+
 
 
 
@@ -23,11 +25,11 @@ button{
     border-radius: 10px;
     border: 1px solid rgb(0, 0, 0.5);
     box-shadow: 2px 2px 10px rgb(0, 0, 0.5);
-    color: $cool-white;
-    background-color: blueviolet;
+    color: map-get($colores, cool-white);
+    background-color: #8a2be2;
     transition: all ease-out 0.2s;
         &:hover{
-            background-color: rgb(101, 33, 165);
+            background-color: map-get($colores, cool-hoover);
             transform: scale(1.2);
         }
 
@@ -50,7 +52,7 @@ button{
     position: absolute;
     top: 50%;
     left: 50%;
-    border:$cool-black;
+    border: map-get($colores, cool-black);
     transform: translate(-50%, -50%);
         h2{
             font-size: 3em;
@@ -68,7 +70,7 @@ ul{
         padding: 5px 12px;
         text-decoration: none;
         font-weight: bold;
-        color:$cool-black;
+        color: map-get($colores, cool-black);
         }
 }
 
@@ -101,8 +103,8 @@ ul{
         font-size: 2.7em;
     }
     img{
+        @include sizes (98%, 400px);
         max-width: 100%;
-        height: 400px;
     }
 }
 
@@ -115,7 +117,7 @@ ul{
 
 
 #cursos{
-    background-color: rgb(30,30,30);
+    background-color: map-get($colores, cool-background-black);
     margin-top: 100px;
     margin-bottom: 100px;
     padding-top: 100px;
@@ -130,11 +132,11 @@ ul{
 }
 
 .card-border{
-    border: solid 10px $cool-white;
+    border: solid 10px map-get($colores, cool-white);
     border-radius: 20px;
     overflow: hidden;
     transition: all ease-out 0.2s;
-    color:$cool-black;
+    color: map-get($colores, cool-black);
     &:hover{
         transform: scale(1.05);
     }
@@ -177,6 +179,17 @@ ul{
     }
 }
 
+.texto0{
+    width: 50%;
+    text-align: initial;
+    padding: 0px 30px;
+    max-width: 600px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 /*CSS PARA SECCIÓN CURSOS---------------------------------------------CURSOS----------------------------------------------------------------------------*/
 
 
@@ -197,15 +210,8 @@ ul{
             justify-content: space-evenly;
     }
 
-    .texto{
-            width: 50%;
-            text-align: initial;
-            padding: 0px 30px;
-            max-width: 600px;
-            padding-left: 30px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+    .texto1{
+        @extend .texto0;
     }
     h6{
         margin-top: 0px;
@@ -214,7 +220,7 @@ ul{
 
 #ata{
     background-color: rgb(30,30,30);
-    color:$cool-white;
+    color: map-get($colores, cool-white);
     margin-top: 170px;
     .container{
         display: flex;
@@ -230,15 +236,8 @@ ul{
         margin-top: 170px;
         margin-bottom: 150px;
     }
-    .texto{
-        width: 50%;
-        text-align: initial;
-        padding: 0px 30px;
-        max-width: 600px;
-        padding-right: 30px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+    .texto2{
+        @extend .texto0;
     }
     h6{
         margin-top: 0px;
@@ -248,31 +247,24 @@ ul{
 
 #eln{
 
-    background-color:$cool-white;
-    color:$cool-black;
+    background-color: map-get($colores, cool-white);
+    color: map-get($colores, cool-black);
     .container{
         display: flex;
         justify-content: space-evenly;
     }
     .img-container{
-        margin-top: 170px;
-        background-image: url(./imagenes/tradingprincipiantes.jpg);
+        background-image: url(./imagenes/nft2.jpg);
         background-size: cover;
         background-position: center center;
         height: 500px;
         width: 500px;
+        margin-top: 170px;
         margin-bottom: 150px;
     }
-        .texto{
-        width: 50%;
-        text-align: initial;
-        padding: 0px 30px;
-        max-width: 600px;
-        padding-left: 30px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
+        .texto3{
+        @extend .texto0;
+        }
         h6{
         margin-top: 0px;
     }
@@ -313,7 +305,7 @@ ul{
         justify-content: center;
         align-items: center;
         text-align: center;
-        background-color: #fff;
+        background-color: map-get($colores, cool-white);
         box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
         margin-bottom: 200px;
     }
@@ -364,15 +356,15 @@ ul{
     .btn1{
         width: 100%;
         padding: 0.5rem 1rem;
-        background-color: blueviolet;
-        color: #fff;
+        background-color: map-get($colores, cool-blueviolet);
+        color: map-get($colores, cool-white);
         font-size: 1.1rem;
         border: none;
         outline: none;
         cursor: pointer;
         transition: .3s;
         &:hover{
-            background-color: rgb(101, 33, 165);
+            background-color: map-get($colores, cool-hoover);
         }
     }
 
@@ -390,8 +382,8 @@ ul{
     /*CSS PARA SECCION NOSOTROS-----------------------------------CSS PARA SECCIÓN NOSOTROS-----------------------------------------------------------*/
 
     #sobre-nosotros{
-        color: #fff;
-        background-color: rgb(30,30,30);
+        color: map-get($colores, cool-white);
+        background-color: map-get($colores, cool-background-black);
         height: 700px;
 
         .container{
@@ -424,7 +416,7 @@ ul{
 
     .container3{
         text-align: center;
-        background-color: $cool-white;
+        background-color: map-get($colores, cool-white);
         .sub-container{
             max-width: 1200px;
             margin: auto;
@@ -450,7 +442,7 @@ ul{
 
     .header2{
         padding-top: 60px;
-        color: rgb(0, 0, 0);
+        color: map-get($colores, cool-black);
         font-size: 20px;
         margin: auto;
         line-height: 50px;
@@ -503,7 +495,7 @@ ul{
             margin-top: 100px;
             .box{
                 padding: 2.5rem;
-                background: #fff;
+                background: map-get($colores, cool-white);
                 border-radius: 5rem;
                 border: 1rem solid rgba(0,0,0,.2);
                 box-shadow: var(--box-shadow);
@@ -515,7 +507,7 @@ ul{
                     margin: 1rem 0;
                 }
                 h2{
-                    color:$cool-black;
+                    color: map-get($colores, cool-black);
                     font-size: 2.5rem;
                 }
                 span{
@@ -528,10 +520,9 @@ ul{
         }
     }
 
-
 .heading1{
     text-align: center;
-    color: var($cool-black);
+    color: map-get($colores, cool-black);
     font-size: 3rem;
     padding-bottom: 2rem;
     padding-top: 8rem;
