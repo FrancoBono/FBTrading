@@ -72,7 +72,7 @@ ul li {
   padding: 150px;
 }
 #somos-fbtrading .texto {
-  width: 80%;
+  width: 95%;
   text-align: initial;
   padding: 0px 30px;
   max-width: 600px;
@@ -80,6 +80,7 @@ ul li {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-size: 1.2em;
 }
 #somos-fbtrading h6 {
   margin-top: 0px;
@@ -179,6 +180,9 @@ ul li {
   display: flex;
   justify-content: space-evenly;
 }
+#atp .texto1 {
+  margin-top: 120px;
+}
 #atp h6 {
   margin-top: 0px;
 }
@@ -221,6 +225,9 @@ ul li {
   width: 500px;
   margin-top: 170px;
   margin-bottom: 150px;
+}
+#eln .texto3 {
+  margin-bottom: 40px;
 }
 #eln h6 {
   margin-top: 0px;
@@ -345,7 +352,6 @@ textarea {
 #sobre-nosotros {
   color: #ffffff;
   background-color: #1e1e1e;
-  height: 700px;
 }
 #sobre-nosotros .container {
   display: flex;
@@ -353,7 +359,7 @@ textarea {
   padding-top: 150px;
 }
 #sobre-nosotros .texto {
-  width: 80%;
+  width: 90%;
   text-align: initial;
   padding: 0px 30px;
   max-width: 600px;
@@ -361,16 +367,16 @@ textarea {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 170px;
-  padding-bottom: 500px;
+  margin-bottom: 80px;
+  padding-bottom: 120px;
+  font-size: large;
 }
 #sobre-nosotros h6 {
   margin-top: 0px;
-  font-size: 1.7rem;
+  font-size: 2.5rem;
 }
 #sobre-nosotros img {
-  height: 400px;
+  height: 450px;
   width: 500px;
 }
 

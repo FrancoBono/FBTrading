@@ -89,7 +89,7 @@ ul{
         padding: 150px;
     }
     .texto{
-        width: 80%;
+        width: 95%;
         text-align: initial;
         padding: 0px 30px;
         max-width: 600px;
@@ -97,6 +97,7 @@ ul{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        font-size: 1.2em;
     }
     h6{
         margin-top: 0px;
@@ -212,6 +213,7 @@ ul{
 
     .texto1{
         @extend .texto0;
+        margin-top: 120px;
     }
     h6{
         margin-top: 0px;
@@ -264,6 +266,7 @@ ul{
     }
         .texto3{
         @extend .texto0;
+        margin-bottom: 40px;
         }
         h6{
         margin-top: 0px;
@@ -384,7 +387,7 @@ ul{
     #sobre-nosotros{
         color: map-get($colores, cool-white);
         background-color: map-get($colores, cool-background-black);
-        height: 700px;
+
 
         .container{
             display: flex ;
@@ -392,7 +395,7 @@ ul{
             padding-top: 150px;
         }
         .texto{
-        width: 80%;
+        width: 90%;
         text-align: initial;
         padding: 0px 30px;
         max-width: 600px;
@@ -400,16 +403,16 @@ ul{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-top: 20px;
-        margin-bottom: 170px;
-        padding-bottom: 500px;
+        margin-bottom: 80px;
+        padding-bottom: 120px;
+        font-size: large;
         }
         h6{
         margin-top: 0px;
-        font-size: 1.7rem;
+        font-size: 2.5rem;
     }
         img{
-            height: 400px;
+            height: 450px;
             width:  500px;
         }
 }
@@ -482,6 +485,8 @@ ul{
         font-weight: lighter;
         color: #4e4e4e;
     }
+
+
 
 
     /*CSS PARA SECCION PRECIOS-----------------------------------CSS PARA SECCIÓN PRECIOS-----------------------------------------------------------*/
