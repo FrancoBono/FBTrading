@@ -94,8 +94,7 @@ ul li {
 
 #cursos {
   background-color: #1e1e1e;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   padding-top: 100px;
   padding-bottom: 100px;
   max-width: 100%;
@@ -120,7 +119,7 @@ ul li {
 
 .mapa {
   text-align: center;
-  padding: 200px 12px;
+  padding: 50px 12px;
 }
 .mapa h5 {
   font-size: 2em;
@@ -129,6 +128,10 @@ ul li {
 .map-container iframe {
   width: 800px;
   height: 600px;
+}
+
+.eno {
+  margin-bottom: 50px;
 }
 
 .responsive-map {
@@ -166,10 +169,10 @@ ul li {
 
 /*CSS PARA SECCIÓN CURSOS---------------------------------------------CURSOS----------------------------------------------------------------------------*/
 #atp {
-  margin-bottom: 30px;
+  margin-bottom: 160px;
 }
 #atp .img-container {
-  margin-top: 170px;
+  margin-top: 130px;
   background-image: url(./imagenes/tradingprincipiantes.jpg);
   background-size: cover;
   background-position: center center;
@@ -181,6 +184,7 @@ ul li {
   justify-content: space-evenly;
 }
 #atp .texto1 {
+  width: auto;
   margin-top: 120px;
 }
 #atp h6 {
@@ -190,7 +194,6 @@ ul li {
 #ata {
   background-color: rgb(30, 30, 30);
   color: #ffffff;
-  margin-top: 170px;
 }
 #ata .container {
   display: flex;
@@ -204,6 +207,10 @@ ul li {
   width: 500px;
   margin-top: 170px;
   margin-bottom: 150px;
+}
+#ata .texto2 {
+  width: auto;
+  margin-top: 150px;
 }
 #ata h6 {
   margin-top: 0px;
@@ -227,12 +234,78 @@ ul li {
   margin-bottom: 150px;
 }
 #eln .texto3 {
-  margin-bottom: 40px;
+  margin-top: 160px;
+  width: auto;
 }
 #eln h6 {
   margin-top: 0px;
 }
 
+@media (max-width: 767px) {
+  #atp {
+    margin-bottom: 60px;
+  }
+  #atp .img-container {
+    margin-top: 50px;
+    background-image: url(./imagenes/tradingprincipiantes.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    width: 300px;
+    margin-left: 30px;
+  }
+  #atp .texto1 {
+    width: auto;
+    margin-top: 60px;
+    margin-bottom: 10px;
+  }
+
+  #ata {
+    background-color: rgb(30, 30, 30);
+    color: #ffffff;
+  }
+  #ata .img-container {
+    background-image: url(./imagenes/tradingavanzado.jpg);
+    background-size: cover;
+    background-position: right;
+    height: 400px;
+    width: 300px;
+    margin-bottom: 60px;
+    margin-left: 30px;
+    margin-top: 60px;
+  }
+  #ata .texto2 {
+    margin: 0px;
+    margin-bottom: 80px;
+  }
+
+  #eln {
+    margin-bottom: 60px;
+    background-color: #ffffff;
+    color: #000000;
+  }
+  #eln .container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #eln .img-container {
+    background-image: url(./imagenes/nft2.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    width: 300px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 30px;
+  }
+  #eln .texto3 {
+    margin-bottom: 40px;
+    width: auto;
+  }
+  #eln h6 {
+    margin-top: 0px;
+  }
+}
 /*CSS PARA SECCIÓN CONTACTO-----------------------------------CSS PARA SECCIÓN CONTACTO-----------------------------------------------------------*/
 .parent2 {
   display: grid;
