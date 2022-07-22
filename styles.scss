@@ -194,6 +194,13 @@ ul{
     justify-content: center;
 }
 
+
+@media (max-width: 767px){
+    #hero{
+        font-size: 0.8em;
+    }
+}
+
 /*CSS PARA SECCIÓN CURSOS---------------------------------------------CURSOS----------------------------------------------------------------------------*/
 
 
@@ -570,6 +577,23 @@ ul{
     }
 
 
+@media (max-width: 767px){
+    #sobre-nosotros{
+
+        .container{
+        padding-top: 30px;
+
+    }
+    img{
+        height: 350px;
+        width: 300px;
+        margin-left: 20px;
+        margin-bottom: 40px;
+    }
+}
+}
+
+
 
 
     /*CSS PARA SECCION PRECIOS-----------------------------------CSS PARA SECCIÓN PRECIOS-----------------------------------------------------------*/
@@ -617,6 +641,14 @@ ul{
     text-transform: uppercase;
     margin-bottom: 100px;
 }
+
+
+@media (max-width: 767px){
+    .crypto{
+        padding: 10px;
+    }
+}
+
 
 
 
